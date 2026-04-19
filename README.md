@@ -4,8 +4,6 @@ A simple background timer app with desktop notifications.
 ## Build
 cmake -B build && cmake --build build
 
-## Install
-sudo cp build/timer /usr/local/bin/timer
 
 ## Usage
 Add to your .zshrc / .bashrc:
