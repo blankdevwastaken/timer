@@ -1,9 +1,9 @@
-# timer
+# Timer
 A simple background timer app with desktop notifications.
 
 ## Build
 cmake -B build && cmake --build build
-
+sudo cmake --install build
 
 ## Usage
 Add to your .zshrc / .bashrc:
