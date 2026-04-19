@@ -9,10 +9,12 @@ sudo cp build/timer /usr/local/bin/timer
 
 ## Usage
 Add to your .zshrc / .bashrc:
+```
 timer() {
     (nohup ~/Projects/newtime/build/main "$1" "$2" &>/dev/null & disown) 2>/dev/null
     echo "\ueab2 You will be reminded to \"$1\" in $2"
 }
+```
 
 Then just run:
 timer "eat food" 10m
